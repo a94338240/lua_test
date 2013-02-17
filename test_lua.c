@@ -7,6 +7,8 @@
 #include <lualib.h>
 #include <lauxlib.h>
 
+//gcc test_lua.c -llua -lm  -o exe
+//2
 
 #define err_exit(num,fmt,args)  \
     do{printf("[%s:%d]" fmt "\n",__FILE__,__LINE__,#args);exit(num);} while(0)
