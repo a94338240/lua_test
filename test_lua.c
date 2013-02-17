@@ -8,7 +8,7 @@
 #include <lauxlib.h>
 
 //gcc test_lua.c -llua -lm  -o exe
-//2
+//原来每次提交时都得 git add test_lua.c -> git commit -m "[some comment]" -> git push origin master
 
 #define err_exit(num,fmt,args)  \
     do{printf("[%s:%d]" fmt "\n",__FILE__,__LINE__,#args);exit(num);} while(0)
